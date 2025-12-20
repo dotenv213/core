@@ -1,0 +1,30 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test output
+*.out
+
+# Environment Variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Docker
+docker-data/
+postgres-data/
+.postgres-data/
+
+# vendor
+vendor/
+
+# nix
+shell.nix
